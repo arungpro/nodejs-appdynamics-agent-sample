@@ -11,7 +11,7 @@ require("appdynamics").profile({
     'logfiles': [
       {
         'root_directory': '/tmp/appd/',
-        'level': 'ERROR',
+        'level': 'trace',
         'max_size': 5242880,
         'max_files': 1,
       }
