@@ -7,16 +7,16 @@ require("appdynamics").profile({
  accountAccessKey: '1afacb63-b7b2-4d04-be54-bf173dde4c0e',
  debug: true,
  libagent: true,
- logging: {
-    'logfiles': [
-      {
-        'root_directory': '/tmp/appd/',
-        'level': 'trace',
-        'max_size': 5242880,
-        'max_files': 1,
-      }
-    ]
-  },
+//  logging: {
+//     'logfiles': [
+//       {
+//         'root_directory': '/tmp/appd/',
+//         'level': 'trace',
+//         'max_size': 5242880,
+//         'max_files': 1,
+//       }
+//     ]
+//   },
  applicationName: 'TestDoc',
  tierName: 'version_nodejs',
  nodeName: 'process10'
