@@ -5,8 +5,6 @@ require("appdynamics").profile({
  controllerPort: 8090,
  accountName: 'customer1',
  accountAccessKey: '1afacb63-b7b2-4d04-be54-bf173dde4c0e',
- debug: true,
- libagent: true,
 //  logging: {
 //     'logfiles': [
 //       {
