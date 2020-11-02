@@ -6,16 +6,12 @@ require("appdynamics").profile({
  accountName: 'customer1',
  accountAccessKey: '1afacb63-b7b2-4d04-be54-bf173dde4c0e',
  controllerSslEnabled: false,   //True if port is 443 or saas controller
-//  logging: {
-//     'logfiles': [
-//       {
-//         'root_directory': '/tmp/appd/',
-//         'level': 'trace',
-//         'max_size': 5242880,
-//         'max_files': 1,
-//       }
-//     ]
-//   },
+ logging: {
+          logfiles: [
+               {'filename': 'nodejs_agent_%N.log', 'level': 'TRACE'},
+               {'filename': 'nodejs_agent_%N.protolog', 'level': 'TRACE', 'channel': 'protobuf'}
+          ]
+  }
  applicationName: 'TestDoc',
  tierName: 'version_nodejs',
  nodeName: 'process10'
