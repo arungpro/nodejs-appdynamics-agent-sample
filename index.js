@@ -11,7 +11,7 @@ require("appdynamics").profile({
                {'filename': 'nodejs_agent_%N.log', 'level': 'TRACE'},
                {'filename': 'nodejs_agent_%N.protolog', 'level': 'TRACE', 'channel': 'protobuf'}
           ]
-  }
+  },
  applicationName: 'TestDoc',
  tierName: 'version_nodejs',
  nodeName: 'process10'
